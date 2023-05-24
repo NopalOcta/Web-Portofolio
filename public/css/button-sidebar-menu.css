@@ -1,0 +1,94 @@
+.button-close-sidebar {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+    transform: scale(0.7);
+   }
+
+   .button-close-sidebar, .button-close-sidebar span {
+    transition: 200ms;
+   }
+
+   .button-close-sidebar .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+   }
+
+   .button-close-sidebar .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .button-close-sidebar svg {
+    width: 15px;
+    fill: #eee;
+   }
+
+   .button-close-sidebar:hover {
+    background: #ff3636;
+   }
+
+   .button-close-sidebar:hover .text {
+    color: transparent;
+   }
+
+   .button-close-sidebar:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+   }
+
+   .button-close-sidebar:focus {
+    outline: none;
+   }
+
+   .button-close-sidebar:active .icon svg {
+    transform: scale(0.8);
+   }
+
+
+.button-sidebar {
+    align-items: center;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    /* font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    padding: 1rem 0.5rem;
+  }
+
+  .button-sidebar:before {
+    background-color: #000000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-right: 10px;
+    transition: all .42s cubic-bezier(.25,.8,.25,1);
+    width: 0;
+  }
+
+  .button-sidebar:hover:before {
+    background-color: #000000;
+    width: 3rem;
+  }

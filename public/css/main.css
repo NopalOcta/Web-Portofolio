@@ -1,0 +1,39 @@
+:root {
+    --font-1: 'bungee';
+    --font-2: 'montserrat alternates', sans-serif;
+    --bg-color-1: #fc8a8a;
+    --bg-color-2: #fc5c5b;
+    --bg-color-3: #7fdeff;
+    --bg-color-4: #00bfff;
+    --bg-color-5: #25262a;
+    --bg-color-6: #ff7777;
+    --bg-color-7: #ffffff;
+    --bg-color-8: #000000;
+    --bg-color-9: #2d2e33;
+    --bg-color-10: #292a2e;
+    --text-color-1: #000000;
+    --text-color-2: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-1);
+}
+
+p, span, a {
+    font-family: var(--font-2);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hidden-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hidden-scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
