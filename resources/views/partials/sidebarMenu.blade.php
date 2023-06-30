@@ -1,6 +1,6 @@
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENU</h5>
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel" style="font-size: 32px;">MENU</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         {{-- <button class="button-close-sidebar" data-bs-dismiss="offcanvas" aria-label="Close">
             <span class="text">Close</span>

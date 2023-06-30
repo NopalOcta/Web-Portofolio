@@ -39,6 +39,8 @@
     {{-- For TypeWriter --}}
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="/js/typewriter.js"></script>
+    {{-- Skills Container --}}
+    <script src="/js/skillsContainer.js"></script>
 </body>
 
 </html>
