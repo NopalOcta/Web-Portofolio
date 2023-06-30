@@ -72,6 +72,19 @@
             color: var(--bg-color-1) !important;
             border: 2px solid var(--bg-color-1) !important;
         }
+
+        /* Portfolio Container */
+
+        .overlay-text {
+            background-color: rgba(0, 0, 0, 0.7);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .portfolio-image-container:hover .overlay-text {
+            opacity: 1;
+        }
     </style>
 @endsection
 
@@ -167,28 +180,63 @@
         </div>
 
         {{-- Container 4 : Portofolio --}}
-        <h2 class="text-end">Portfolio</h2>
+        <h1 class="text-end">Portfolio</h1>
         <p class="text-end">This is the result of my work making a web application</p>
-        <div class="row">
-            <div class="col mx-1">
-                <h4></h4>
+        <div class="portfolio row">
+            <div class="col d-flex justify-content-center m-3">
+                <h4 class="align-self-center h2">Portfolio 1</h4>
             </div>
-            <div class="col mx-1">
-                <img src="" alt="">
+            <div class="portfolio-image-container col m-3 ratio ratio-1x1">
+                <img src="https://source.unsplash.com/600x600?people" alt="Portfolio Image 1"
+                    class="portfolio-image img-fluid rounded rounded-4">
+                <div class="overlay-text rounded rounded-4 d-flex justify-content-center">
+                    <h6 class="align-self-center text-white" style="font-size: 10vmax">?</h6>
+                </div>
             </div>
-            <div class="col mx-1">
-                <img src="" alt="">
+            <div class="portfolio-image-container col m-3 ratio ratio-1x1">
+                <img src="https://source.unsplash.com/600x600?art" alt="Portfolio Image 2"
+                    class="portfolio-image img-fluid rounded rounded-4">
+                <div class="overlay-text rounded rounded-4 d-flex justify-content-center">
+                    <h6 class="align-self-center text-white" style="font-size: 10vmax">?</h6>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col mx-1">
-                <img src="" alt="">
+        <div class="portfolio row">
+            <div class="portfolio-image-container col m-3 ratio ratio-1x1">
+                <img src="https://source.unsplash.com/600x600?technology" alt="Portfolio Image 3"
+                    class="portfolio-image img-fluid rounded rounded-4">
+                <div class="overlay-text rounded rounded-4 d-flex justify-content-center">
+                    <h6 class="align-self-center text-white" style="font-size: 10vmax">?</h6>
+                </div>
             </div>
-            <div class="col mx-1">
-                <h4></h4>
+            <div class="col d-flex justify-content-center m-3">
+                <h4 class="align-self-center h2">Portfolio 2</h4>
             </div>
-            <div class="col mx-1">
-                <img src="" alt="">
+            <div class="portfolio-image-container col m-3 ratio ratio-1x1">
+                <img src="https://source.unsplash.com/600x600?gadget" alt="Portfolio Image 4"
+                    class="portfolio-image img-fluid rounded rounded-4">
+                <div class="overlay-text rounded rounded-4 d-flex justify-content-center">
+                    <h6 class="align-self-center text-white" style="font-size: 10vmax">?</h6>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio row">
+            <div class="portfolio-image-container col m-3 ratio ratio-1x1">
+                <img src="https://source.unsplash.com/600x600?food" alt="Portfolio Image 5"
+                    class="portfolio-image img-fluid rounded rounded-4">
+                <div class="overlay-text rounded rounded-4 d-flex justify-content-center">
+                    <h6 class="align-self-center text-white" style="font-size: 10vmax">?</h6>
+                </div>
+            </div>
+            <div class="portfolio-image-container col m-3 ratio ratio-1x1">
+                <img src="https://source.unsplash.com/600x600?drink" alt="Portfolio Image 6"
+                    class="portfolio-image img-fluid rounded rounded-4">
+                <div class="overlay-text rounded rounded-4 d-flex justify-content-center">
+                    <h6 class="align-self-center text-white" style="font-size: 10vmax">?</h6>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center m-3">
+                <h4 class="align-self-center h2">Portfolio 3</h4>
             </div>
         </div>
     </main>
