@@ -79,7 +79,7 @@
     <main class="container-md">
         {{-- Container 1 : Opening --}}
         <div class="container-fluid rounded-5 pt-4 mb-5"
-            style="background: linear-gradient(to bottom, var(--bg-color-1), var(--bg-color-2)); width: 100%;">
+            style="background: linear-gradient(to bottom, var(--bg-color-1), var(--bg-color-2)); width: 100%; margin-top: 100px;">
             <h1 class="text-center text-white" style="font-size: 56px;">Hi, I'am Naoval Octa</h1>
             <span class="typewriter-container d-block text-center text-white fs-4 mb-5" id="sentence"
                 style="margin-top: -8px"></span>
@@ -131,6 +131,7 @@
             </div>
             <img src="/images/people-3d-avatar/5-College-Student.png" alt="" class="img-fluid" style="width: 40%;">
         </div>
+
         {{-- Container 3 : Skills --}}
         <div class="container-fluid w-100 d-flex rounded-5 pt-4 ps-5 pe-0 mb-5" style="background: var(--bg-color-5);">
             <div class="row w-100">
@@ -162,6 +163,32 @@
                             class="skill skill-hover d-block border border-2 border-light text-white m-1 p-1">Windows</span>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        {{-- Container 4 : Portofolio --}}
+        <h2 class="text-end">Portfolio</h2>
+        <p class="text-end">This is the result of my work making a web application</p>
+        <div class="row">
+            <div class="col mx-1">
+                <h4></h4>
+            </div>
+            <div class="col mx-1">
+                <img src="" alt="">
+            </div>
+            <div class="col mx-1">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mx-1">
+                <img src="" alt="">
+            </div>
+            <div class="col mx-1">
+                <h4></h4>
+            </div>
+            <div class="col mx-1">
+                <img src="" alt="">
             </div>
         </div>
     </main>
