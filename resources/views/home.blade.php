@@ -74,7 +74,6 @@
         }
 
         /* Portfolio Container */
-
         .overlay-text {
             background-color: rgba(0, 0, 0, 0.7);
             opacity: 0;
@@ -84,6 +83,31 @@
 
         .portfolio-image-container:hover .overlay-text {
             opacity: 1;
+        }
+
+        /* Contact Container */
+        .contact-container .email-button {
+            border: 2px solid #fff;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.0);
+            transition: 300ms;
+        }
+
+        .contact-container .email-button:hover {
+            color: #fc6867;
+            background-color: #fff;
+        }
+
+        .contact-container .resume-button {
+            border: 2px solid #fff;
+            color: #fc6867;
+            background-color: #fff;
+            transition: 300ms;
+        }
+
+        .contact-container .resume-button:hover {
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.0);
         }
     </style>
 @endsection
@@ -237,6 +261,22 @@
             </div>
             <div class="col d-flex justify-content-center m-3">
                 <h4 class="align-self-center h2">Portfolio 3</h4>
+            </div>
+        </div>
+
+        {{-- Container 5 : Contact --}}
+        <div class="contact-container container-fluid rounded-5 w-100 p-5 mt-5 mb-5"
+            style="background: linear-gradient(to bottom, var(--bg-color-1), var(--bg-color-2));">
+            <h1 class="text-center text-white text-uppercase" style="font-size: 56px;">Contact Me</h1>
+            <p class="text-center text-white">If you like looking for someone to fill an open full-stack position or would
+                simply like to consult me on full-stack engineering decisions, please do not hesitate to contact me.</p>
+            <div class="d-flex justify-content-center align-items-center mx-auto">
+                <button type="button" class="email-button me-2 px-5 py-3">
+                    <h6 class="text-uppercase m-0">naoval.r.octa@gmail.com</h6>
+                </button>
+                <button type="button" class="resume-button ms-2 px-5 py-3">
+                    <h6 class="text-uppercase m-0">resume</h6>
+                </button>
             </div>
         </div>
     </main>
